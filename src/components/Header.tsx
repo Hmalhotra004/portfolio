@@ -2,7 +2,7 @@ import { header } from "@/lib/header";
 import Link from "next/link";
 
 const Header = () => {
-  const layHeader = data => {
+  const layHeader = (data: { id: number; name: string; to: string }) => {
     return (
       <li
         className="mx-2"
