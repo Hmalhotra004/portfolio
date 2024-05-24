@@ -1,11 +1,11 @@
 import { header } from "@/lib/header";
 import Link from "next/link";
 
-const Header = () => {
+const NavBar = () => {
   const layHeader = (data: { id: number; name: string; to: string }) => {
     return (
       <li
-        className="mx-2"
+        className="mx-2 text-sm sm:text-base md:text-xl lg:text-2xl"
         key={data.id}
       >
         <Link href={data.to}>{data.name}</Link>
@@ -14,12 +14,12 @@ const Header = () => {
   };
 
   return (
-    <header className="flex items-end justify-center my-4 sticky">
+    <header className="flex items-end justify-center my-4">
       <nav className="border rounded-3xl">
-        <ul className="flex items-end justify-end mx-4 text-lg ">{header.map(data => layHeader(data))}</ul>
+        <ul className="flex items-end justify-center text-lg ">{header.map(data => layHeader(data))}</ul>
       </nav>
     </header>
   );
 };
 
-export default Header;
+export default NavBar;
