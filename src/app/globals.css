@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  ::selection {
+    color: rgb(22 78 99 /1);
+    background-color: rgb(103 232 249 /1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  color: #d4d4d4;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
