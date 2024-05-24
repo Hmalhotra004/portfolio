@@ -6,8 +6,8 @@ export const header = [
   },
   {
     id: 2,
-    name: "Skils",
-    to: "/Skils",
+    name: "Skills",
+    to: "/Skills",
   },
   {
     id: 3,
