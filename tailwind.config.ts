@@ -7,6 +7,9 @@ const config: Config = {
       colors: {
         "text-col": "#d4d4d4",
       },
+      screens: {
+        xs: "425px",
+      },
     },
   },
   plugins: [],
