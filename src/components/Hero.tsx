@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center">
           {/* <h1 className="lg:text-5xl">Hardik Malhotra</h1>
           <h6 className="lg:text-3xl">Full Stack Developer</h6> */}
-          <p className="lg:text-xl p-5 text-left">{aboutMe}</p>
+          <p className="lg:text-xl p-5 xl:p-14 text-left">{aboutMe}</p>
         </div>
         <div className="block">
           <ImageCard />
