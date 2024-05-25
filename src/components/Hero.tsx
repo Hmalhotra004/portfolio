@@ -4,13 +4,13 @@ import ImageCard from "./ImageCard";
 const Hero = () => {
   return (
     <section className="mt-[4.5rem]">
-      <div className="flex justify-evenly items-center">
-        <div className="flex flex-col justify-center items-center">
+      <div className="grid grid-cols-2 justify-evenly gap-4">
+        <div className="flex justify-center items-center">
           {/* <h1 className="lg:text-5xl">Hardik Malhotra</h1>
           <h6 className="lg:text-3xl">Full Stack Developer</h6> */}
-          <p className="lg:text-xl p-5 xl:p-14 text-left">{aboutMe}</p>
+          <p className="lg:text-xl p-4 text-justify">{aboutMe}</p>
         </div>
-        <div className="block">
+        <div className="flex justify-center items-center">
           <ImageCard />
         </div>
       </div>
