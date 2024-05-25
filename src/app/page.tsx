@@ -1,6 +1,7 @@
 // import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="container mx-auto px-8">
         <NavBar />
         <Hero />
+        <Skills />
         {/* <Footer /> */}
       </div>
     </section>
