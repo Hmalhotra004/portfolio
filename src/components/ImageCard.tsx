@@ -49,14 +49,14 @@ const ImageCard = () => {
         transformStyle: "preserve-3d",
         transform,
       }}
-      className="relative h-72 w-72 flex justify-center items-center object-contain select-none "
+      className="relative h-72 w-72 flex justify-center items-center object-contain select-none"
     >
       <Image
         src="/pfp269.jpeg"
         alt="Profile Pic"
         width={550}
         height={250}
-        className=" absolute w-fit h-fit object-fill rounded-lg select-none "
+        className=" absolute w-fit h-fit object-fill rounded-lg select-none"
       />
       <div
         style={{
