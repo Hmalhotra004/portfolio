@@ -7,7 +7,7 @@ export const header = [
   {
     id: 2,
     name: "Skills",
-    to: "/Skills",
+    to: "skills",
   },
   {
     id: 3,

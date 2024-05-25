@@ -10,7 +10,10 @@ const Skills = () => {
   const styles_div = "rounded-2xl border-4 border-neutral-800 p-4";
 
   return (
-    <section className="border-b border-neutral-800 pb-24">
+    <section
+      className="border-b border-neutral-800 pb-24"
+      id="skills"
+    >
       <h2 className="my-16 text-center text-4xl">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className={styles_div}>
