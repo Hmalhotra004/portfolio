@@ -3,7 +3,7 @@ import ImageCard from "./ImageCard";
 
 const Hero = () => {
   return (
-    <section className="mt-[4.5rem]">
+    <section className="mt-[4.5rem] border-b border-neutral-800 pb-24">
       <div className="xs:flex xs:flex-col md:justify-evenly md:gap-4 xl:gap-0 md:grid md:grid-cols-2">
         <div className="xs:flex xs:justify-center xs:items-center md:hidden">
           <ImageCard />
