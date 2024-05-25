@@ -8,6 +8,7 @@ const config: Config = {
         "text-col": "#d4d4d4",
       },
       screens: {
+        xxs: "320px",
         xs: "425px",
       },
     },
