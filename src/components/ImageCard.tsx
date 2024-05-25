@@ -68,7 +68,7 @@ const ImageCard = () => {
         <div className="absolute top-[-40px] left-0 w-full h-full flex items-start justify-end flex-col ml-4">
           <p className="text-2xl text-white">Hardik Malhotra</p>
           <div className="py-1 px-2 bg-black rounded-lg ">
-            <p className="text-base font-bold bg-gradient-to-r from-pink-300 via-cyan-600 to-purple-500 bg-clip-text tracking-tight text-transparent">Full Stack Developer</p>
+            <p className="text-base font-bold bg-gradient-to-r from-pink-400 via-cyan-600 to-purple-500 bg-clip-text tracking-tight text-transparent">Full Stack Developer</p>
           </div>
         </div>
       </div>
