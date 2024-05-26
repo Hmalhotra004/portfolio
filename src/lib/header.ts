@@ -21,7 +21,7 @@ export const header = [
   },
   {
     id: 5,
-    name: "Education",
+    name: "Contact",
     to: "/Education",
   },
 ];

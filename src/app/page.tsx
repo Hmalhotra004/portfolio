@@ -1,4 +1,5 @@
 // import Footer from "@/components/Footer";
+import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Skills from "@/components/Skills";
@@ -13,6 +14,7 @@ export default function Home() {
         <NavBar />
         <Hero />
         <Skills />
+        <Experience />
         {/* <Footer /> */}
       </div>
     </section>
