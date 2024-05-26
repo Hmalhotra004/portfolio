@@ -27,7 +27,7 @@ export const EXPERIENCE = [
 export const PROJECTS = [
   {
     title: `Tic-Tac-Toe`,
-    image: "/pfp22.jpeg",
+    image: "/tic.png",
     des: `A Tic-Tac-Toe Game`,
     link: "https://tic-tac-toe-three-peach.vercel.app",
     // github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
@@ -35,10 +35,10 @@ export const PROJECTS = [
   },
   {
     title: `Tic-Tac-Toe`,
-    image: "/pfp22.jpeg",
-    des: `A Tic-Tac-Toe Game`,
+    image: "/tic.png",
+    des: `loremlorelorelorelorelorelorelore`,
     link: "https://tic-tac-toe-three-peach.vercel.app",
     // github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
-    tech: ["React.js", "JavaScript", "CSS"],
+    tech: ["React.js", "JavaScript", "CSS", "CSS", "CSS"],
   },
 ];
