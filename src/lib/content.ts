@@ -23,3 +23,22 @@ export const EXPERIENCE = [
     skiils: ["React.js", "JavaScript", "SCSS", "Framer Motion"],
   },
 ];
+
+export const PROJECTS = [
+  {
+    title: `Tic-Tac-Toe`,
+    image: "/pfp22.jpeg",
+    des: `A Tic-Tac-Toe Game`,
+    link: "https://tic-tac-toe-three-peach.vercel.app",
+    // github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
+    tech: ["React.js", "JavaScript", "CSS"],
+  },
+  {
+    title: `Tic-Tac-Toe`,
+    image: "/pfp22.jpeg",
+    des: `A Tic-Tac-Toe Game`,
+    link: "https://tic-tac-toe-three-peach.vercel.app",
+    // github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
+    tech: ["React.js", "JavaScript", "CSS"],
+  },
+];

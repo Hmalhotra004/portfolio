@@ -2,7 +2,7 @@ import { EXPERIENCE } from "@/lib/content";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <section className="border-b border-neutral-900 pb-4">
       <h2 className="my-16 text-center text-4xl">Experience</h2>
       {EXPERIENCE.map((exp, index) => (
         <div
@@ -28,7 +28,7 @@ const Experience = () => {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 
