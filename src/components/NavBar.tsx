@@ -14,7 +14,10 @@ const NavBar = () => {
   };
 
   return (
-    <header className="flex items-end justify-center my-4">
+    <header className="flex items-end justify-end my-4">
+      <div>
+        <h1>hello</h1>
+      </div>
       <nav className="border rounded-2xl">
         <ul className="flex items-end justify-center text-lg ">{header.map(data => layHeader(data))}</ul>
       </nav>
