@@ -33,8 +33,8 @@ const NavBar = () => {
 
   return (
     <>
-      <header className="flex items-end justify-end my-4">
-        <div className="mr-auto">
+      <header className="flex items-end justify-end my-4 ">
+        <div className="mr-auto z-20">
           <NavBarLogos />
         </div>
         <div className="pt-2 md:hidden z-20">

@@ -14,7 +14,7 @@ const MobileNav = ({ hide, onClick }: { hide: string; onClick: () => void }) => 
         onClick={onClick}
       >
         <li
-          className="mx-2 text-sm xs:text-base md:text-xl lg:text-2xl xxs:text-xs"
+          className="text-2xl"
           key={data.id}
         >
           <Link href={data.to}>{data.name}</Link>
