@@ -1,5 +1,6 @@
 import { header } from "@/lib/header";
 import Link from "next/link";
+import NavBarLogos from "./NavBarLogos";
 
 const NavBar = () => {
   const layHeader = (data: { id: number; name: string; to: string }) => {
@@ -15,10 +16,10 @@ const NavBar = () => {
 
   return (
     <header className="flex items-end justify-end my-4">
-      <div>
-        <h1>hello</h1>
+      <div className="mr-auto">
+        <NavBarLogos />
       </div>
-      <nav className="border rounded-2xl">
+      <nav>
         <ul className="flex items-end justify-center text-lg ">{header.map(data => layHeader(data))}</ul>
       </nav>
     </header>

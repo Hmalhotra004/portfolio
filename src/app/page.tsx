@@ -1,7 +1,7 @@
 // import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
-import NavBar from "@/components/NavBar";
+import NavBar from "@/components/Other/NavBar";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
