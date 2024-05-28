@@ -18,7 +18,7 @@ const NavBarLogos = () => {
         <FaGithub className={logoStyle} />
       </a>
       <a
-        href="https://github.com/Hmalhotra004"
+        href="https://www.instagram.com/hardik152004/"
         target="_blank"
       >
         <FaInstagram className={logoStyle} />
