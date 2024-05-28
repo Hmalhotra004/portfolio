@@ -5,7 +5,7 @@
 html {
   ::selection {
     color: rgb(22 78 99 /1);
-    background-color: rgb(103 232 249 /1);
+    background-color: #67e8f9;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

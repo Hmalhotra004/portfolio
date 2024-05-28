@@ -6,6 +6,7 @@ const config: Config = {
     extend: {
       colors: {
         "text-col": "#d4d4d4",
+        "bg-col": "#67e8f9",
       },
       screens: {
         xxs: "320px",

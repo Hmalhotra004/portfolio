@@ -10,7 +10,7 @@ const NavBar = () => {
   const layHeader = (data: { id: number; name: string; to: string }) => {
     return (
       <li
-        className="mx-2 text-sm xs:text-base md:text-xl lg:text-2xl xxs:text-xs"
+        className="mx-2 text-sm xs:text-base md:text-xl lg:text-2xl xxs:text-xs hover:text-purple-500 transition-all "
         key={data.id}
       >
         <Link href={data.to}>{data.name}</Link>
@@ -33,7 +33,7 @@ const NavBar = () => {
 
   return (
     <>
-      <header className="flex items-end justify-end my-4 ">
+      <header className="flex items-center justify-end my-4 ">
         <div className="mr-auto z-20">
           <NavBarLogos />
         </div>
