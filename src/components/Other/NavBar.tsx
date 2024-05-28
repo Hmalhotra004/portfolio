@@ -10,7 +10,7 @@ const NavBar = () => {
   const layHeader = (data: { name: string; to: string }, idx: number) => {
     return (
       <li
-        className="mx-2 text-sm xs:text-base md:text-xl lg:text-2xl xxs:text-xs hover:text-purple-500 transition-all "
+        className="mx-2 text-sm xs:text-base md:text-xl lg:text-2xl xxs:text-xs hover:text-purple-500 transition-all ease-in-out"
         key={idx}
       >
         <Link href={data.to}>{data.name}</Link>
