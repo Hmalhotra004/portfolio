@@ -1,9 +1,9 @@
 // import Footer from "@/components/Footer";
-import Experience from "@/components/Experience";
-import Hero from "@/components/Hero";
 import NavBar from "@/components/Other/NavBar";
-import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
+import Experience from "@/components/Sections/Experience";
+import Hero from "@/components/Sections/Hero";
+import Projects from "@/components/Sections/Projects";
+import Skills from "@/components/Sections/Skills";
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
 import { PROJECTS } from "@/lib/content";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../Other/ProjectCard";
 
 const Projects = () => {
   return (

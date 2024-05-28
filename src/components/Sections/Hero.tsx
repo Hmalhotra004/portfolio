@@ -1,5 +1,5 @@
 import { aboutMe } from "@/lib/content";
-import ImageCard from "./ImageCard";
+import ImageCard from "../Other/ImageCard";
 
 const Hero = () => {
   return (
