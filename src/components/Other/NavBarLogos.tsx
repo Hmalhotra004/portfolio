@@ -2,7 +2,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 
 const NavBarLogos = () => {
-  const logoStyle = "mx-2 md:text-2xl xs:text-xl hover:text-purple-500 transition-all ";
+  const logoStyle = "mx-2 md:text-2xl xxs:text-xl hover:text-purple-500 transition-all ";
   return (
     <nav className="flex justify-center items-center">
       <a
