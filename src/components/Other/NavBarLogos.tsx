@@ -2,7 +2,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 
 const NavBarLogos = () => {
-  const logoStyle = "mx-2 text-2xl";
+  const logoStyle = "mx-2 md:text-2xl xs:text-xl";
   return (
     <nav className="flex">
       <a
