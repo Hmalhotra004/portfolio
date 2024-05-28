@@ -7,16 +7,13 @@ const MobileNav = ({ hide, onClick }: { hide: string; onClick: () => void }) => 
   let mobile = "flex items-center justify-center fixed bg-slate-950 top-0 left-0 w-full h-full z-10";
   mobile += ` ${hide}`;
 
-  function layHeader(data: { id: number; name: string; to: string }) {
+  function layHeader(data: { name: string; to: string }, idx: number) {
     return (
       <button
-        key={data.id}
+        key={idx}
         onClick={onClick}
       >
-        <li
-          className="text-2xl"
-          key={data.id}
-        >
+        <li className="text-2xl">
           <Link href={data.to}>{data.name}</Link>
         </li>
       </button>
@@ -52,7 +49,7 @@ const MobileNav = ({ hide, onClick }: { hide: string; onClick: () => void }) => 
         exit="exit"
         className={mobile}
       >
-        <ul className="list-none p-0 flex flex-col gap-6 mt-6">{header.map(data => layHeader(data))}</ul>
+        <ul className="list-none p-0 flex flex-col gap-6 mt-6">{header.map((data, idx) => layHeader(data, idx))}</ul>
       </motion.nav>
     </>
   );

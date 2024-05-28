@@ -7,11 +7,11 @@ import MobileNav from "./MobileNav";
 import NavBarLogos from "./NavBarLogos";
 
 const NavBar = () => {
-  const layHeader = (data: { id: number; name: string; to: string }) => {
+  const layHeader = (data: { name: string; to: string }, idx: number) => {
     return (
       <li
         className="mx-2 text-sm xs:text-base md:text-xl lg:text-2xl xxs:text-xs hover:text-purple-500 transition-all "
-        key={data.id}
+        key={idx}
       >
         <Link href={data.to}>{data.name}</Link>
       </li>
@@ -49,7 +49,7 @@ const NavBar = () => {
           </button>
         </div>
         <nav className="">
-          <ul className="xxs:hidden md:flex md:items-end md:justify-center text-lg ">{header.map(data => layHeader(data))}</ul>
+          <ul className="xxs:hidden md:flex md:items-end md:justify-center text-lg ">{header.map((data, idx) => layHeader(data, idx))}</ul>
         </nav>
       </header>
       <AnimatePresence

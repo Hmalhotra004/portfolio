@@ -8,6 +8,7 @@ html {
     background-color: #67e8f9;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
   }
 
   ::-webkit-scrollbar {
