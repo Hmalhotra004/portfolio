@@ -8,7 +8,7 @@ export const EXPERIENCE = [
     year: "May 2024 - Current",
     role: "Web Developer Intern",
     company: "ChakliArts",
-    description: `Creating the official website of ChakliArts`,
+    description: `Creating the official company website`,
     skiils: ["React.js", "JavaScript", "SCSS", "Framer Motion"],
   },
   {

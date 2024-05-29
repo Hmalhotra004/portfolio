@@ -17,12 +17,12 @@ const ProjectCard = ({ project }: { project: any }) => {
         <p className="mb-4 text-neutral-400">{project.des}</p>
         <div className="flex flex-wrap">
           {project.tech.map((tech: any, idx: number) => (
-            <span
+            <div
               key={idx}
-              className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+              className="gap-2 flex flex-wrap justify-start items-center"
             >
-              {tech}
-            </span>
+              <span className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 my-1">{tech}</span>
+            </div>
           ))}
         </div>
       </div>
