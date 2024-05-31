@@ -1,4 +1,4 @@
-import { PROJECTS } from "@/lib/content";
+import { PROJECTS } from "@/lib/projects";
 import ProjectCard from "../Other/ProjectCard";
 
 const Projects = () => {

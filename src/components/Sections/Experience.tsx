@@ -1,4 +1,4 @@
-import { EXPERIENCE } from "@/lib/content";
+import { EXPERIENCE } from "@/lib/experience";
 
 const Experience = () => {
   return (
