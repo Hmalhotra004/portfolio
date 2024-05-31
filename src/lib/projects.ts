@@ -13,6 +13,6 @@ export const PROJECTS = [
     des: `Official website of NMTechfest'24`,
     link: "https://tic-tac-toe-three-peach.vercel.app",
     // github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
-    tech: ["Next.js", "React.js", "ES6", "SCSS"],
+    tech: ["Next.js", "React.js", "ES6", "SCSS", "Framer Motion"],
   },
 ];
