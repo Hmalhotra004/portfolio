@@ -31,14 +31,14 @@ export const PROJECTS = [
     des: `A Tic-Tac-Toe Game`,
     link: "https://tic-tac-toe-three-peach.vercel.app",
     // github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
-    tech: ["React.js", "JavaScript", "CSS"],
+    tech: ["React.js", "ES6", "CSS"],
   },
   {
-    title: `Tic-Tac-Toe`,
+    title: `NMTechFest'24 Website`,
     image: "/tic.png",
-    des: `loremlorelorelorelorelorelorelore`,
+    des: `Official website of NMTechfest'24`,
     link: "https://tic-tac-toe-three-peach.vercel.app",
     // github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
-    tech: ["React.js", "JavaScript", "CSS", "CSS", "CSS"],
+    tech: ["Next.js", "React.js", "ES6", "SCSS"],
   },
 ];

@@ -8,7 +8,7 @@ const Projects = () => {
       id="Projects"
     >
       <h2 className="my-16 text-center text-4xl">Projects</h2>
-      <div className="flex flex-wrap justify-evenly items-center">
+      <div className="flex flex-wrap justify-center items-center md:gap-8 xxs:gap-2">
         {PROJECTS.map((project, idx) => (
           <div
             key={idx}
