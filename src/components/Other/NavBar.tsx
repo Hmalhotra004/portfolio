@@ -1,6 +1,7 @@
 "use client";
+import { FadeIn } from "@/lib/animation";
 import { header } from "@/lib/header";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import MobileNav from "./MobileNav";
@@ -9,12 +10,15 @@ import NavBarLogos from "./NavBarLogos";
 const NavBar = () => {
   const layHeader = (data: { name: string; to: string }, idx: number) => {
     return (
-      <li
+      <motion.li
+        variants={FadeIn(0)}
+        initial="hidden"
+        animate="visible"
         className="mx-2 text-sm xs:text-base md:text-xl lg:text-2xl xxs:text-xs hover:text-purple-500 transition-all ease-in-out"
         key={idx}
       >
         <Link href={data.to}>{data.name}</Link>
-      </li>
+      </motion.li>
     );
   };
 
