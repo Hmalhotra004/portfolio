@@ -1,8 +1,9 @@
 "use client";
-import { animateFLeft, animateFRight } from "@/lib/animation";
+import { animateFRight } from "@/lib/animation";
 import { motion, useMotionTemplate, useMotionValue, useSpring } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
+import Reveal from "./Reveal";
 
 const ROTATION_RANGE = 32.5;
 const HALF_ROTATION_RANGE = 32.5 / 2;
@@ -45,7 +46,8 @@ const ImageCard = () => {
     <motion.div
       variants={animateFRight(0)}
       initial="hidden"
-      animate="visible"
+      whileInView="visible"
+      viewport={{ once: true }}
     >
       <motion.div
         ref={ref}
@@ -72,17 +74,25 @@ const ImageCard = () => {
           className="absolute w-full h-full"
         >
           <div className="absolute top-[-40px] left-0 w-full h-full flex items-start justify-end flex-col ml-4">
-            <motion.p
-              variants={animateFLeft(0.5)}
-              initial="hidden"
-              animate="visible"
-              className="text-2xl text-white"
+            <Reveal
+              x={-500}
+              de={0.2}
             >
-              Hardik Malhotra
-            </motion.p>
-            <div className="py-1 px-2 bg-black rounded-lg ">
-              <p className="text-base font-bold bg-gradient-to-r from-pink-400 via-cyan-600 to-purple-500 bg-clip-text tracking-tight text-transparent">Full Stack Developer</p>
-            </div>
+              <p className="text-2xl text-white">Hardik Malhotra</p>
+            </Reveal>
+            <Reveal
+              x={-500}
+              de={0.2}
+            >
+              <div className="py-1 px-2 bg-black rounded-lg ">
+                <Reveal
+                  y={100}
+                  du={0.5}
+                >
+                  <p className="text-base font-bold bg-gradient-to-r from-pink-400 via-cyan-600 to-purple-500 bg-clip-text tracking-tight text-transparent">Full Stack Developer</p>
+                </Reveal>
+              </div>
+            </Reveal>
           </div>
         </div>
       </motion.div>
