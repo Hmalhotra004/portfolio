@@ -1,5 +1,4 @@
 "use client";
-import { animateFRight } from "@/lib/animation";
 import { motion, useMotionTemplate, useMotionValue, useSpring } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
@@ -44,9 +43,8 @@ const ImageCard = () => {
 
   return (
     <motion.div
-      variants={animateFRight(0)}
-      initial="hidden"
-      whileInView="visible"
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{ opacity: 1, x: 0, transition: { duration: 0.6 } }}
       viewport={{ once: true }}
     >
       <motion.div
