@@ -1,3 +1,6 @@
+"use client";
+import { animate } from "@/lib/animation";
+import { motion } from "framer-motion";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaNodeJs, FaPython } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
@@ -14,11 +17,20 @@ const Skills = () => {
       className="border-b border-neutral-800 pb-24"
       id="skills"
     >
-      <h2 className="my-16 text-center text-4xl">Technologies</h2>
+      <motion.h2
+        variants={animate(0, 0, 50)}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="my-16 text-center text-4xl"
+      >
+        Technologies
+      </motion.h2>
+
       <div className="flex flex-wrap items-center justify-center gap-4">
-        <div className={styles_div}>
+        <motion.div className={styles_div}>
           <RiReactjsLine className="text-5xl text-cyan-400" />
-        </div>
+        </motion.div>
         <div className={styles_div}>
           <TbBrandNextjs className="text-5xl" />
         </div>
