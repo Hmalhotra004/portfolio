@@ -9,14 +9,14 @@ type Props = {
   // des: string;
   // link: string;
   // github: string;
-  // tech: string[];}
+  // tech: string[];}[]
 };
 
 const HoverBg = ({ project }: { project: any }) => (
-  <div className="bg-neutral-950 z-50 w-full h-full flex justify-center items-center">
+  <div className="bg-transparent z-50 w-full h-full flex justify-center items-center">
     <a
       href={project.github}
-      className="p-4 "
+      className="p-2 border-2 border-white rounded-lg mx-2 text-lg"
     >
       GitHub
     </a>
