@@ -39,7 +39,7 @@ const ProjectCard = ({ project }: Props) => {
           onMouseLeave={handleHover}
           className="rounded-2xl border-4 border-neutral-800 p-4 min-w-[17rem] max-w-[17rem] h-[350px]  hover:z-0 z-10"
         >
-          {isOn && <HoverBg project={project} />}
+          {/* {isOn && <HoverBg project={project} />} */}
           <div className="flex flex-col justify-center items-start">
             <div className="w-full flex justify-center">
               <Reveal y={10}>
