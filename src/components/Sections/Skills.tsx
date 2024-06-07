@@ -17,7 +17,10 @@ const Skills = () => {
       className="border-b border-neutral-800 pb-24"
       id="skills"
     >
-      <Reveal x={-400}>
+      <Reveal
+        x={-400}
+        cn="flex mx-auto"
+      >
         <h2 className="my-16 text-center text-4xl">Technologies</h2>
       </Reveal>
 

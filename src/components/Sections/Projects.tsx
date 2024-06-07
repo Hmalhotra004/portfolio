@@ -9,7 +9,10 @@ const Projects = () => {
       className="border-b border-neutral-900 pb-4"
       id="Projects"
     >
-      <Reveal x={-400}>
+      <Reveal
+        x={-400}
+        cn="flex mx-auto"
+      >
         <h2 className="my-16 text-center text-4xl">Projects</h2>
       </Reveal>
 

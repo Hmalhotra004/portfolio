@@ -7,7 +7,10 @@ const Contact = () => {
       className="border-b border-neutral-900 pb-4"
       id="Contact"
     >
-      <Reveal x={-400}>
+      <Reveal
+        x={-400}
+        cn="flex mx-auto"
+      >
         <h2 className="my-16 text-center text-4xl">Get in Touch</h2>
       </Reveal>
     </section>

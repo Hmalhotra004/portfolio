@@ -8,9 +8,10 @@ type Props = {
   y?: number;
   du?: number;
   de?: number;
+  cn?: string;
 };
 
-const Reveal = ({ children, width = "fit-content", x, y, du, de }: Props) => {
+const Reveal = ({ children, width = "fit-content", x, y, du, de, cn }: Props) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -25,7 +26,8 @@ const Reveal = ({ children, width = "fit-content", x, y, du, de }: Props) => {
   return (
     <div
       ref={ref}
-      style={{ position: "relative", width, overflow: "hidden", display: "flex", margin: "auto" }}
+      className={cn}
+      style={{ position: "relative", width, overflow: "hidden" }}
     >
       <motion.div
         variants={{
