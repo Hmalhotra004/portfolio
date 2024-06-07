@@ -1,7 +1,9 @@
 "use client";
+// import { useRouter } from "next/router";
 import Reveal from "../Other/Reveal";
 
 const Contact = () => {
+  // const router = useRouter();
   return (
     <section
       className="border-b border-neutral-900 pb-4"
@@ -24,12 +26,14 @@ const Contact = () => {
         x={400}
         cn="flex mx-auto"
       >
-        <a
-          href="hardikmalhotra150804@gmail.com"
+        <button
+          type="button"
+          // onClick={() => router.push("mailto:hardikmalhotra150804@gmail.com")}
+          // href=mailto:"hardikmalhotra150804@gmail.com?"
           className="text-xl"
         >
-          hardikmalhotra150804@gmail.com
-        </a>
+          Email Me
+        </button>
       </Reveal>
 
       <Reveal
