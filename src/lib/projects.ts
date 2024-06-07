@@ -11,8 +11,8 @@ export const PROJECTS = [
     title: `NMTechFest'24 Website`,
     image: "/tic.png",
     des: `Official website of NMTechfest'24`,
-    link: "https://tic-tac-toe-three-peach.vercel.app",
-    github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
+    link: "https://techfest-website-24.vercel.app",
+    github: "https://github.com/Hmalhotra004/techfest-website-24",
     tech: ["Next.js", "React.js", "ES6", "SCSS", "Framer Motion"],
   },
 ];
