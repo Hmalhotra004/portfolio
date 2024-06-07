@@ -6,52 +6,55 @@ const Contact = () => {
   // const router = useRouter();
   return (
     <section
-      className="border-b border-neutral-900 pb-4"
+      className="border-b border-neutral-900 mb-4 pb-4 flex flex-col justify-center items-center gap-4"
       id="Contact"
     >
       <Reveal
         x={-400}
         cn="flex mx-auto"
       >
-        <h2 className="my-16 text-center text-4xl">Get in Touch</h2>
-      </Reveal>
-      <Reveal
-        x={-400}
-        cn="flex mx-auto"
-      >
-        <p className="text-xl mb-4">+91 7715871202</p>
+        <h2 className="my-4 text-center text-4xl">Get in Touch</h2>
       </Reveal>
 
-      <Reveal
-        x={400}
-        cn="flex mx-auto"
-      >
-        <button
-          type="button"
-          // onClick={() => router.push("mailto:hardikmalhotra150804@gmail.com")}
-          // href=mailto:"hardikmalhotra150804@gmail.com?"
-          className="text-xl"
+      <div className="grid grid-cols-3 justify-center items-center gap-4">
+        <Reveal
+          x={-400}
+          cn="flex mx-auto"
         >
-          Email Me
-        </button>
-      </Reveal>
+          <p className="text-xl">+91 7715871202</p>
+        </Reveal>
 
-      <Reveal
-        x={-400}
-        cn="flex mx-auto"
-      >
-        <button className="text-purple-500  hover:text-neutral-900 bg-neutral-900  p-3 rounded-lg my-8 hover:bg-purple-500 transition-colors duration-300">
-          <Reveal y={100}>
-            <a
-              href="/Hardik Malhotra.pdf"
-              download="Hardik Malhotra"
-              className="text-2xl "
-            >
-              Download Resume
-            </a>
-          </Reveal>
-        </button>
-      </Reveal>
+        <Reveal
+          y={-400}
+          cn="flex mx-auto"
+        >
+          <button className="text-purple-500  hover:text-neutral-900 bg-neutral-900  p-3 rounded-lg hover:bg-purple-500 transition-colors duration-300">
+            <Reveal y={100}>
+              <a
+                href="/Hardik Malhotra.pdf"
+                download="Hardik Malhotra"
+                className="text-2xl "
+              >
+                Download Resume
+              </a>
+            </Reveal>
+          </button>
+        </Reveal>
+
+        <Reveal
+          x={400}
+          cn="flex mx-auto"
+        >
+          <button
+            type="button"
+            // onClick={() => router.push("mailto:hardikmalhotra150804@gmail.com")}
+            // href=mailto:"hardikmalhotra150804@gmail.com?"
+            className="text-xl"
+          >
+            Email Me
+          </button>
+        </Reveal>
+      </div>
     </section>
   );
 };
