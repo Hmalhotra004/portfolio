@@ -28,20 +28,26 @@ const Experience = () => {
               {exp.role} - <span className="text-sm text-purple-">{exp.company}</span>
             </h6>
             <p className="mb-4 text-neutral-400">{exp.description}</p>
-            {exp.skiils.map((tech, idx) => (
-              <Reveal
-                key={idx}
-                x={-100}
-              >
-                <div className="flex flex-wrap flex-row">
-                  <span className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 m-1 ">
-                    <Reveal y={100}>
-                      <p>{tech}</p>
-                    </Reveal>
-                  </span>
-                </div>
-              </Reveal>
-            ))}
+
+            <div className="flex flex-wrap">
+              {exp.skiils.map((tech, idx) => (
+                <Reveal
+                  key={idx}
+                  x={-100}
+                >
+                  <div className="flex flex-wrap w-fit">
+                    <span className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 m-1 ">
+                      <Reveal
+                        y={100}
+                        de={0.2}
+                      >
+                        <p>{tech}</p>
+                      </Reveal>
+                    </span>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </div>
       ))}
