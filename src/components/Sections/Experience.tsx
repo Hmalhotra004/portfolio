@@ -21,13 +21,21 @@ const Experience = () => {
           className="mb-8 flex flex-wrap justify-center"
         >
           <div className="w-full lg:w-1/4">
-            <p className="mb-2 text-sm text-neutral-400">{exp.year}</p>
+            <Reveal x={-300}>
+              <p className="mb-2 text-sm text-neutral-400">{exp.year}</p>
+            </Reveal>
           </div>
+
           <div className="w-full max-w-xl lg:w-3/4">
-            <h6 className="mb-2 font-semibold">
-              {exp.role} - <span className="text-sm text-purple-">{exp.company}</span>
-            </h6>
-            <p className="mb-4 text-neutral-400">{exp.description}</p>
+            <Reveal x={-300}>
+              <h6 className="mb-2 font-semibold">
+                {exp.role} - <span className="text-sm">{exp.company}</span>
+              </h6>
+            </Reveal>
+
+            <Reveal x={-300}>
+              <p className="mb-4 text-neutral-400">{exp.description}</p>
+            </Reveal>
 
             <div className="flex flex-wrap">
               {exp.skiils.map((tech, idx) => (
