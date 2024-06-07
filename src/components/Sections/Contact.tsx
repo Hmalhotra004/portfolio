@@ -1,9 +1,7 @@
 "use client";
-// import { useRouter } from "next/router";
 import Reveal from "../Other/Reveal";
 
 const Contact = () => {
-  // const router = useRouter();
   return (
     <section
       className="border-b border-neutral-900 mb-4 pb-4 flex flex-col justify-center items-center gap-4"
