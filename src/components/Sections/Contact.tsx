@@ -25,14 +25,23 @@ const Contact = () => {
         cn="flex mx-auto"
       >
         <a
-          href="#"
+          href="hardikmalhotra150804@gmail.com"
           className="text-xl"
         >
           hardikmalhotra150804@gmail.com
         </a>
       </Reveal>
 
-      <button className="text-purple-500 bg-neutral-900 text-2xl p-3 rounded-lg">Resume</button>
+      <Reveal
+        x={-400}
+        cn="flex mx-auto"
+      >
+        <button className=" bg-neutral-900  p-3 rounded-lg my-8">
+          <Reveal y={100}>
+            <a className="text-2xl text-purple-500">Download Resume</a>
+          </Reveal>
+        </button>
+      </Reveal>
     </section>
   );
 };
