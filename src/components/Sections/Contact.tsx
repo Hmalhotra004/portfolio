@@ -16,7 +16,7 @@ const Contact = () => {
         <h2 className="my-4 text-center text-4xl">Get in Touch</h2>
       </Reveal>
 
-      <div className="grid grid-cols-3 justify-center items-center gap-4">
+      <div className="grid md:grid-cols-3 justify-center items-center gap-4 xxs:grid-rows-3 md:grid-rows-1">
         <Reveal
           x={-400}
           cn="flex mx-auto"
