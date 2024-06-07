@@ -7,3 +7,8 @@ export const FadeIn = (delay: number) => ({
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { duration: 0.5, delay: delay } },
 });
+
+export const iconVariants = {
+  hidden: { y: -10 },
+  visible: { y: [10, -10], transition: { ease: "linear", repeat: Infinity, repeatType: "reverse" } },
+};

@@ -13,20 +13,6 @@ const Skills = () => {
   // const style_logo = "text-5xl text-cyan-400";
   const styles_div = "rounded-2xl border-4 border-neutral-800 p-4 mb-6";
 
-  const iconVariants = (du: number) => ({
-    hidden: { opacity: 0, y: -10 },
-    visible: {
-      opacity: [1, 1],
-      y: [10, -10],
-      transition: {
-        duration: du,
-        ease: "linear",
-        repeat: Infinity,
-        repeatType: "reverse",
-      },
-    },
-  });
-
   return (
     <section
       className="border-b border-neutral-800 pb-24"
@@ -41,9 +27,8 @@ const Skills = () => {
 
       <div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
-          variants={iconVariants(2)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 2, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -51,9 +36,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(2.5)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 2.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -61,9 +45,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(3)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 3, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -71,9 +54,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(3.5)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 3.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -81,9 +63,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(4)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 4, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -91,9 +72,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(4.5)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 4.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -102,9 +82,8 @@ const Skills = () => {
 
         {/*  */}
         <motion.div
-          variants={iconVariants(4)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 4, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -112,9 +91,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(3.5)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 3.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -122,9 +100,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(3)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 3, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -132,9 +109,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(2.5)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 2.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -142,9 +118,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(2)}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ y: -10 }}
+          whileInView={{ y: [10, -10], transition: { duration: 2, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
