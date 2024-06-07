@@ -27,17 +27,16 @@ const HoverBg = ({ project }: { project: any }) => (
 const ProjectCard = ({ project }: Props) => {
   const [isOn, setIsOn] = useState(false);
 
-  function handleHover(e: any) {
+  function handleHover() {
     setIsOn(!isOn);
-    console.log(isOn);
   }
 
   return (
     <>
       <Reveal y={30}>
         <div
-          onMouseEnter={e => handleHover(e)}
-          onMouseLeave={e => handleHover(e)}
+          onMouseEnter={handleHover}
+          onMouseLeave={handleHover}
           className="rounded-2xl border-4 border-neutral-800 p-4 min-w-[17rem] max-w-[17rem] h-[350px]  hover:z-0 z-10"
         >
           {isOn && <HoverBg project={project} />}
