@@ -49,7 +49,7 @@ const Contact = () => {
             // href=mailto:"hardikmalhotra150804@gmail.com?"
             className="text-xl"
           >
-            Email Me
+            hardikmalhotra150804@gmail.com
           </button>
         </Reveal>
       </div>
