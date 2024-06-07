@@ -36,9 +36,15 @@ const Contact = () => {
         x={-400}
         cn="flex mx-auto"
       >
-        <button className=" bg-neutral-900  p-3 rounded-lg my-8">
+        <button className="text-purple-500  hover:text-neutral-900 bg-neutral-900  p-3 rounded-lg my-8 hover:bg-purple-500 transition-colors duration-300">
           <Reveal y={100}>
-            <a className="text-2xl text-purple-500">Download Resume</a>
+            <a
+              href="/hardik_malhotra.pdf"
+              download="hardik_malhotra"
+              className="text-2xl "
+            >
+              Download Resume
+            </a>
           </Reveal>
         </button>
       </Reveal>
