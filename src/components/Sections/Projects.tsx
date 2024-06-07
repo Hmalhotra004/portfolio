@@ -1,9 +1,9 @@
 "use client";
-import { PROJECTS } from "@/lib/projects";
+import { Projects } from "@/lib/projects";
 import ProjectCard from "../Other/ProjectCard";
 import Reveal from "../Other/Reveal";
 
-const Projects = () => {
+const ProjectsSection = () => {
   return (
     <section
       className="border-b border-neutral-900 pb-4"
@@ -17,7 +17,7 @@ const Projects = () => {
       </Reveal>
 
       <div className="flex flex-wrap justify-center items-center md:gap-8 xxs:gap-2">
-        {PROJECTS.map((project, idx) => (
+        {Projects.map((project, idx) => (
           <div
             key={idx}
             className="mb-4"
@@ -30,4 +30,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsSection;

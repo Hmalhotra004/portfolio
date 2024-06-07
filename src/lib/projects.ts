@@ -1,4 +1,4 @@
-export const PROJECTS = [
+export const Projects = [
   {
     title: `Tic-Tac-Toe`,
     image: "/tic.png",
