@@ -1,4 +1,6 @@
+"use client";
 import { EXPERIENCE } from "@/lib/experience";
+import Reveal from "../Other/Reveal";
 
 const Experience = () => {
   return (
@@ -6,7 +8,10 @@ const Experience = () => {
       className="border-b border-neutral-900 pb-4"
       id="Experience"
     >
-      <h2 className="my-16 text-center text-4xl">Experience</h2>
+      <Reveal x={-400}>
+        <h2 className="my-16 text-center text-4xl">Experience</h2>
+      </Reveal>
+
       {EXPERIENCE.map((exp, index) => (
         <div
           key={index}

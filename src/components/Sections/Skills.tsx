@@ -1,5 +1,4 @@
 "use client";
-import { animate } from "@/lib/animation";
 import { motion } from "framer-motion";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaNodeJs, FaPython } from "react-icons/fa";
@@ -7,6 +6,7 @@ import { GrMysql } from "react-icons/gr";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { TbBrandFramerMotion, TbBrandNextjs } from "react-icons/tb";
+import Reveal from "../Other/Reveal";
 
 const Skills = () => {
   // const style_logo = "text-5xl text-cyan-400";
@@ -17,15 +17,9 @@ const Skills = () => {
       className="border-b border-neutral-800 pb-24"
       id="skills"
     >
-      <motion.h2
-        variants={animate(0, 0, 50)}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        className="my-16 text-center text-4xl"
-      >
-        Technologies
-      </motion.h2>
+      <Reveal x={-400}>
+        <h2 className="my-16 text-center text-4xl">Technologies</h2>
+      </Reveal>
 
       <div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div className={styles_div}>

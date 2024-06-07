@@ -1,5 +1,7 @@
+"use client";
 import { PROJECTS } from "@/lib/projects";
 import ProjectCard from "../Other/ProjectCard";
+import Reveal from "../Other/Reveal";
 
 const Projects = () => {
   return (
@@ -7,7 +9,10 @@ const Projects = () => {
       className="border-b border-neutral-900 pb-4"
       id="Projects"
     >
-      <h2 className="my-16 text-center text-4xl">Projects</h2>
+      <Reveal x={-400}>
+        <h2 className="my-16 text-center text-4xl">Projects</h2>
+      </Reveal>
+
       <div className="flex flex-wrap justify-center items-center md:gap-8 xxs:gap-2">
         {PROJECTS.map((project, idx) => (
           <div
