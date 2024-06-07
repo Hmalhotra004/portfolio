@@ -29,12 +29,18 @@ const Experience = () => {
             </h6>
             <p className="mb-4 text-neutral-400">{exp.description}</p>
             {exp.skiils.map((tech, idx) => (
-              <span
+              <Reveal
                 key={idx}
-                className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500"
+                x={-100}
               >
-                {tech}
-              </span>
+                <div className="flex flex-wrap flex-row">
+                  <span className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 m-1 ">
+                    <Reveal y={100}>
+                      <p>{tech}</p>
+                    </Reveal>
+                  </span>
+                </div>
+              </Reveal>
             ))}
           </div>
         </div>

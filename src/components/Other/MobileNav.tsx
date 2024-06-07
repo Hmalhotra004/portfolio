@@ -3,7 +3,12 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect } from "react";
 
-const MobileNav = ({ hide, onClick }: { hide: string; onClick: () => void }) => {
+type Props = {
+  hide: string;
+  onClick: () => void;
+};
+
+const MobileNav = ({ hide, onClick }: Props) => {
   let mobile = "flex items-center justify-center fixed bg-slate-950 top-0 left-0 w-full h-full z-10";
   mobile += ` ${hide}`;
 
