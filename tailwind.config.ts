@@ -7,6 +7,7 @@ const config: Config = {
       colors: {
         "text-col": "#d4d4d4",
         "bg-col": "#67e8f9",
+        "firebase-col": "#F5820D",
       },
       screens: {
         xxs: "320px",
