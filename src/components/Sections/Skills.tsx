@@ -27,8 +27,8 @@ const Skills = () => {
 
       <div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 2, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 2, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -36,8 +36,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 2.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 2.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -45,8 +45,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 3, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 3, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -54,8 +54,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 3.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 3.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -63,8 +63,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 4, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 4, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -72,18 +72,17 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 4.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 4.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
           <SiExpress className="text-5xl" />
         </motion.div>
 
-        {/*  */}
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 4, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 4, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -91,8 +90,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 3.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 3.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -100,8 +99,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 3, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 3, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -109,8 +108,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 2.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 2.5, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
@@ -118,8 +117,8 @@ const Skills = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: -10 }}
-          whileInView={{ y: [10, -10], transition: { duration: 2, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: [1, 1], y: [10, -10], transition: { duration: 2, ease: "linear", repeat: Infinity, repeatType: "reverse" } }}
           viewport={{ once: true }}
           className={styles_div}
         >
