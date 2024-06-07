@@ -11,7 +11,7 @@ import Reveal from "../Other/Reveal";
 
 const Skills = () => {
   // const style_logo = "text-5xl text-cyan-400";
-  const styles_div = "rounded-2xl border-4 border-neutral-800 p-4";
+  const styles_div = "rounded-2xl border-4 border-neutral-800 p-4 mb-6";
 
   const iconVariants = (du: number) => ({
     hidden: { opacity: 0, y: -10 },

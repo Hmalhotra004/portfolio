@@ -21,7 +21,7 @@ const Hero = () => {
               // initial="hidden"
               // whileInView="visible"
               // viewport={{ once: true }}
-              className="xxs:mt-4 md:mt-0 xl:px-12 xs:text-justify md:text-base lg:text-lg xl:text-1xl xxs:text-center"
+              className="xxs:mt-4 md:mt-0 xl:px-12 xs:text-justify md:text-base lg:text-lg xl:text-2xl xxs:text-center"
             >
               {aboutMe}
             </motion.p>
