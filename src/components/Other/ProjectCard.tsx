@@ -13,14 +13,19 @@ type Props = {
 };
 
 const HoverBg = ({ project }: { project: any }) => (
-  <div className="bg-transparent z-50 w-full h-full flex justify-center items-center">
+  <div className="bg-purple-100/5 z-50 w-full h-full flex justify-center items-center">
     <a
       href={project.github}
-      className="p-2 border-2 border-white rounded-lg mx-2 text-lg"
+      className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
     >
       GitHub
     </a>
-    <a href={project.link}>Live Site</a>
+    <a
+      href={project.link}
+      className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
+    >
+      Live Project
+    </a>
   </div>
 );
 
@@ -37,9 +42,9 @@ const ProjectCard = ({ project }: Props) => {
         <div
           onMouseEnter={handleHover}
           onMouseLeave={handleHover}
-          className="rounded-2xl border-4 border-neutral-800 p-4 min-w-[17rem] max-w-[17rem] h-[350px]  hover:z-0 z-10"
+          className="rounded-2xl border-4 border-neutral-800 p-4 min-w-[17rem] max-w-[17rem] h-[350px]  hover:z-0 z-10 hover:p-0 transition-all"
         >
-          {/* {isOn && <HoverBg project={project} />} */}
+          {isOn && <HoverBg project={project} />}
           <div className="flex flex-col justify-center items-start">
             <div className="w-full flex justify-center">
               <Reveal y={10}>
