@@ -13,13 +13,15 @@ type Props = {
 };
 
 const HoverBg = ({ project }: { project: any }) => (
-  <div className={`bg-neutral-950/75 z-50 w-full h-full flex justify-center items-center absolute top-0 left-0 rounded-xl`}>
+  <div className="bg-neutral-950/75 z-50 w-full h-full flex justify-center items-center absolute top-0 left-0 rounded-xl">
+    {/* <Reveal x={-100}> */}
     <a
       href={project.github}
       className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
     >
       GitHub
     </a>
+    {/* </Reveal> */}
     <a
       href={project.link}
       className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
