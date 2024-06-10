@@ -49,7 +49,7 @@ const Contact = () => {
           cn="flex mx-auto"
         >
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=hardikmalhotra150804@gmail.com"
+            href="https:/mail.google.com/mail/?view=cm&fs=1&tf=1&to=hardikmalhotra150804@gmail.com"
             target="_blank"
             className="text-xl"
           >
