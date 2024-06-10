@@ -19,7 +19,12 @@ const Contact = () => {
           x={-400}
           cn="flex mx-auto"
         >
-          <p className="text-xl">+91 7715871202</p>
+          <a
+            href="tel:+91 7715871202"
+            className="text-xl"
+          >
+            +91 7715871202
+          </a>
         </Reveal>
 
         <Reveal
@@ -43,14 +48,12 @@ const Contact = () => {
           x={400}
           cn="flex mx-auto"
         >
-          <button
-            type="button"
-            // onClick={() => router.push("mailto:hardikmalhotra150804@gmail.com")}
-            // href=mailto:"hardikmalhotra150804@gmail.com?"
+          <a
+            href="mailto:hardikmalhotra150804@gmail.com"
             className="text-xl"
           >
-            hardikmalhotra150804@gmail.com
-          </button>
+            Email Me
+          </a>
         </Reveal>
       </div>
     </section>
