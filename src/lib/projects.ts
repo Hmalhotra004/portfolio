@@ -15,4 +15,12 @@ export const Projects = [
     github: "https://github.com/Hmalhotra004/techfest-website-24",
     tech: ["Next.js", "React.js", "ES6", "SCSS", "Framer Motion"],
   },
+  // {
+  //   title: `The Simon Game`,
+  //   image: "/tic.png",
+  //   des: `The original Simon Game created in next.js App`,
+  //   link: "https://techfest-website-24.vercel.app",
+  //   github: "https://github.com/Hmalhotra004/simon-game",
+  //   tech: ["Next.js", "React.js", "ES6", "SCSS", "Firebase", "Framer Motion"],
+  // },
 ];

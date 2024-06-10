@@ -44,7 +44,7 @@ const ProjectCard = ({ project }: Props) => {
         <div
           onMouseEnter={handleHover}
           onMouseLeave={handleHover}
-          className="rounded-2xl border-4 border-neutral-800 p-4 min-w-[17rem] max-w-[17rem] h-[350px] z-0 transition-all relative"
+          className="rounded-2xl border-4 border-neutral-800 p-4 w-80 h-[400px] z-0 transition-all relative"
         >
           {isOn && <HoverBg project={project} />}
           <div className="flex flex-col justify-center items-start">
@@ -53,7 +53,7 @@ const ProjectCard = ({ project }: Props) => {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  width={215}
+                  width={265}
                   height={150}
                   className="mb-4 rounded"
                 />
