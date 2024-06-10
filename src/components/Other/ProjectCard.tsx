@@ -13,7 +13,7 @@ type Props = {
 };
 
 const HoverBg = ({ project }: { project: any }) => (
-  <div className="bg-purple-100/5 z-50 w-full h-full flex justify-center items-center">
+  <div className={`bg-neutral-950/75 z-50 w-full h-full flex justify-center items-center absolute top-0 left-0 rounded-xl`}>
     <a
       href={project.github}
       className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
@@ -42,7 +42,7 @@ const ProjectCard = ({ project }: Props) => {
         <div
           onMouseEnter={handleHover}
           onMouseLeave={handleHover}
-          className="rounded-2xl border-4 border-neutral-800 p-4 min-w-[17rem] max-w-[17rem] h-[350px]  hover:z-0 z-10 hover:p-0 transition-all"
+          className="rounded-2xl border-4 border-neutral-800 p-4 min-w-[17rem] max-w-[17rem] h-[350px] z-0 transition-all relative"
         >
           {isOn && <HoverBg project={project} />}
           <div className="flex flex-col justify-center items-start">
