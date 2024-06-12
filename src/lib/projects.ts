@@ -23,4 +23,12 @@ export const Projects = [
     github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
     tech: ["HTML", "CSS", "ES6"],
   },
+  // {
+  //   title: `Mini-Projects`,
+  //   image: "/projects/mp.png",
+  //   des: `Various small projects build with vanilla javascript`,
+  //   link: "https://mini-projects-sigma.vercel.app/",
+  //   github: "https://github.com/Hmalhotra004/Mini-Projects",
+  //   tech: ["HTML", "CSS", "ES6"],
+  // },
 ];
