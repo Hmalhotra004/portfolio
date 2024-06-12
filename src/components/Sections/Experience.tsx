@@ -44,7 +44,7 @@ const Experience = () => {
                   x={-100}
                 >
                   <div className="flex flex-wrap w-fit">
-                    <span className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 m-1 ">
+                    <span className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 m-2 ml-0 ">
                       <Reveal
                         y={100}
                         de={0.2}

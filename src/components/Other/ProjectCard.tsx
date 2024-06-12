@@ -17,6 +17,7 @@ const HoverBg = ({ project }: { project: any }) => (
     {/* <Reveal x={-100}> */}
     <a
       href={project.github}
+      target="_blank"
       className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
     >
       GitHub
@@ -24,6 +25,7 @@ const HoverBg = ({ project }: { project: any }) => (
     {/* </Reveal> */}
     <a
       href={project.link}
+      target="_blank"
       className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
     >
       Live Project
@@ -48,14 +50,14 @@ const ProjectCard = ({ project }: Props) => {
         >
           {isOn && <HoverBg project={project} />}
           <div className="flex flex-col justify-center items-start">
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center h-full object-contain  mb-2">
               <Reveal y={10}>
                 <Image
                   src={project.image}
                   alt={project.title}
-                  width={265}
-                  height={150}
-                  className="mb-4 rounded"
+                  width={425}
+                  height={240}
+                  className=" rounded"
                 />
               </Reveal>
             </div>
