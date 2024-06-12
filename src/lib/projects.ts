@@ -1,7 +1,7 @@
 export const Projects = [
   {
     title: `NMTechFest'24 Website`,
-    image: "/projects/tic.png",
+    image: "/projects/tf.png",
     des: `Official website of NMTechfest'24`,
     link: "https://techfest-website-24.vercel.app",
     github: "https://github.com/Hmalhotra004/techfest-website-24",
