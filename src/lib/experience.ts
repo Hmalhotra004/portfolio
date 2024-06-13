@@ -4,7 +4,7 @@ export const EXPERIENCE = [
     role: "Web Developer Intern",
     company: "ChakliArt",
     description: `Creating the official company website`,
-    skiils: ["React.js", "JavaScript", "SCSS", "Framer Motion"],
+    skiils: ["Next.js", "React.js", "ES6", "SCSS", "Framer Motion"],
   },
   {
     year: "Aug 2023 - March 2024",
@@ -15,6 +15,6 @@ export const EXPERIENCE = [
                   TechFest's website and arrangement for light,
                   sound, camera, and other auxiliary equipment
                   required for events.`,
-    skiils: ["React.js", "JavaScript", "SCSS", "Framer Motion"],
+    skiils: ["Next.js", "React.js", "ES6", "SCSS", "Framer Motion"],
   },
 ];
