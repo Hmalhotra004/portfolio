@@ -1,11 +1,11 @@
 export const EXPERIENCE = [
-  {
-    year: "May 2024 - Current",
-    role: "Web Developer Intern",
-    company: "ChakliArt",
-    description: `Creating the official company website`,
-    skiils: ["Next.js", "React.js", "ES6", "SCSS", "Framer Motion"],
-  },
+  // {
+  //   year: "May 2024 - Current",
+  //   role: "Web Developer Intern",
+  //   company: "ChakliArt",
+  //   description: `Creating the official company website`,
+  //   skiils: ["Next.js", "React.js", "ES6", "SCSS", "Framer Motion"],
+  // },
   {
     year: "Aug 2023 - March 2024",
     role: "Technicals Head of Department",
