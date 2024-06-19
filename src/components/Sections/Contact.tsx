@@ -14,19 +14,7 @@ const Contact = () => {
         <h2 className="my-4 text-center text-4xl">Get in Touch</h2>
       </Reveal>
 
-      <div className="grid md:grid-cols-3 justify-center items-center gap-4 xxs:grid-rows-3 md:grid-rows-1">
-        <Reveal
-          x={-400}
-          cn="flex mx-auto"
-        >
-          <a
-            href="tel:+91 7715871202"
-            className="text-xl"
-          >
-            +91 7715871202
-          </a>
-        </Reveal>
-
+      <div className="grid md:grid-cols-0 justify-center items-center gap-3 xxs:grid-rows-2 md:grid-rows-2">
         <Reveal
           y={-400}
           cn="flex mx-auto"
@@ -36,7 +24,7 @@ const Contact = () => {
               <a
                 href="/Hardik Malhotra.pdf"
                 download="Hardik Malhotra"
-                className="text-2xl "
+                className="text-xl "
               >
                 Download Resume
               </a>

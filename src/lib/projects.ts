@@ -5,15 +5,15 @@ export const Projects = [
     des: `Official website of NMTechfest'24`,
     link: "https://techfest-website-24.vercel.app",
     github: "https://github.com/Hmalhotra004/techfest-website-24",
-    tech: ["Next.js", "React.js", "ES6", "SCSS", "Framer Motion"],
+    tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
   },
   {
     title: `Simon Game`,
     image: "/projects/simon.png",
-    des: `The original Simon Game created in next.js App`,
+    des: `The original Simon Game created in Next.js App`,
     link: "https://simon-game-lilac-delta.vercel.app",
     github: "https://github.com/Hmalhotra004/simon-game",
-    tech: ["Next.js", "React.js", "ES6", "SCSS", "Firebase", "Framer Motion"],
+    tech: ["Next.js", "Typescript", "SCSS", "Firebase", "Framer Motion"],
   },
   {
     title: `Tic-Tac-Toe`,
