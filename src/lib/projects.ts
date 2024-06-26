@@ -21,7 +21,7 @@ export const Projects = [
     des: `A Tic-Tac-Toe Game`,
     link: "https://tic-tac-toe-three-peach.vercel.app",
     github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
-    tech: ["HTML", "CSS", "ES6"],
+    tech: ["HTML", "CSS", "Javascript"],
   },
   // {
   //   title: `Mini-Projects`,
@@ -29,6 +29,6 @@ export const Projects = [
   //   des: `Various small projects build with vanilla javascript`,
   //   link: "https://mini-projects-sigma.vercel.app/",
   //   github: "https://github.com/Hmalhotra004/Mini-Projects",
-  //   tech: ["HTML", "CSS", "ES6"],
+  //   tech: ["HTML", "CSS", "Javascript"],
   // },
 ];
