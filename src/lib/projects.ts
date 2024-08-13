@@ -1,19 +1,35 @@
 export const Projects = [
   {
-    title: `NMTechFest'24 Website`,
-    image: "/projects/tf.png",
-    des: `Official website of NMTechfest'24`,
-    link: "https://techfest-website-24.vercel.app",
-    github: "https://github.com/Hmalhotra004/techfest-website-24",
-    tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
-  },
-  {
     title: `Simon Game`,
     image: "/projects/simon.png",
     des: `The original Simon Game created in Next.js App`,
     link: "https://simon-game-lilac-delta.vercel.app",
     github: "https://github.com/Hmalhotra004/simon-game",
     tech: ["Next.js", "Typescript", "SCSS", "Firebase", "Framer Motion"],
+  },
+  // {
+  //   title: `Project Manager`,
+  //   image: "/projects/simon.png",
+  //   des: `Its a Project Manager`,
+  //   link: "https://project-manager-omega-blue.vercel.app",
+  //   github: "https://github.com/Hmalhotra004/project-manager",
+  //   tech: ["Next.js", "Typescript", "TailwindCSS", "Firebase", "Framer Motion"],
+  // },
+  // {
+  //   title: `Quizzler`,
+  //   image: "/projects/simon.png",
+  //   des: `A Quizz app about everything`,
+  //   link: "https://quizzler-three.vercel.app",
+  //   github: "https://github.com/Hmalhotra004/project-manager",
+  //   tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
+  // },
+  {
+    title: `NMTechFest'24 Website`,
+    image: "/projects/tf.png",
+    des: `Official website of NMTechfest'24`,
+    link: "https://techfest-website-24.vercel.app",
+    github: "https://github.com/Hmalhotra004/techfest-website-24",
+    tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
   },
   {
     title: `Tic-Tac-Toe`,
