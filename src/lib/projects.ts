@@ -15,14 +15,14 @@ export const Projects = [
   //   github: "https://github.com/Hmalhotra004/project-manager",
   //   tech: ["Next.js", "Typescript", "TailwindCSS", "Firebase", "Framer Motion"],
   // },
-  // {
-  //   title: `Quizzler`,
-  //   image: "/projects/simon.png",
-  //   des: `A Quizz app about everything`,
-  //   link: "https://quizzler-three.vercel.app",
-  //   github: "https://github.com/Hmalhotra004/project-manager",
-  //   tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
-  // },
+  {
+    title: `Quizzler`,
+    image: "/projects/quiz.png",
+    des: `A Quizz app about everything using an trivia api`,
+    link: "https://quizzler-three.vercel.app",
+    github: "https://github.com/Hmalhotra004/quizzler",
+    tech: ["Next.js", "Typescript", "SCSS", "Axios"],
+  },
   {
     title: `NMTechFest'24 Website`,
     image: "/projects/tf.png",

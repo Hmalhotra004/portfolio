@@ -3,18 +3,18 @@ import { useState } from "react";
 import Reveal from "./Reveal";
 
 type Props = {
-  project: any;
-  // {title: string;
-  // image: string;
-  // des: string;
-  // link: string;
-  // github: string;
-  // tech: string[];}[]
+  project: {
+    title: string;
+    github: string;
+    link: string;
+    image: string;
+    tech: string[];
+    des: string;
+  };
 };
 
-const HoverBg = ({ project }: { project: any }) => (
+const HoverBg = ({ project }: Props) => (
   <div className="bg-neutral-950/75 z-50 w-full h-full flex justify-center items-center absolute top-0 left-0 rounded-xl">
-    {/* <Reveal x={-100}> */}
     <a
       href={project.github}
       target="_blank"
@@ -22,7 +22,6 @@ const HoverBg = ({ project }: { project: any }) => (
     >
       GitHub
     </a>
-    {/* </Reveal> */}
     <a
       href={project.link}
       target="_blank"
@@ -50,7 +49,7 @@ const ProjectCard = ({ project }: Props) => {
         >
           {isOn && <HoverBg project={project} />}
           <div className="flex flex-col justify-center items-start">
-            <div className="w-full flex justify-center h-full object-contain  mb-2">
+            <div className="w-full flex justify-center h-full object-contain mb-2">
               <Reveal y={10}>
                 <Image
                   src={project.image}
