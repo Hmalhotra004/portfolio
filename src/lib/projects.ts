@@ -5,7 +5,7 @@ export const Projects = [
     des: `The original Simon Game created in Next.js App`,
     link: "https://simon-game-lilac-delta.vercel.app",
     github: "https://github.com/Hmalhotra004/simon-game",
-    tech: ["Next.js", "Typescript", "SCSS", "Firebase", "Framer Motion"],
+    tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
   },
   // {
   //   title: `Project Manager`,
