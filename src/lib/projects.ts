@@ -13,7 +13,7 @@ export const Projects = [
   //   des: `Its a Project Manager`,
   //   link: "https://project-manager-omega-blue.vercel.app",
   //   github: "https://github.com/Hmalhotra004/project-manager",
-  //   tech: ["Next.js", "Typescript", "TailwindCSS", "Firebase", "Framer Motion"],
+  //   tech: ["Next.js", "Typescript", "TailwindCSS","Redux Toolkit", "Firebase", "Framer Motion"],
   // },
   {
     title: `Quizzler`,
