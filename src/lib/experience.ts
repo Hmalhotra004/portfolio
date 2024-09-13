@@ -1,6 +1,7 @@
 export const EXPERIENCE = [
   {
     year: "May 2024 - August 2024",
+    // link: "https://chakliart.vercel.app",
     role: "Web Developer Intern",
     company: "ChakliArt",
     description: `Design and develop websites for Chakliart and its clients, 
@@ -10,6 +11,7 @@ export const EXPERIENCE = [
 
   {
     year: "August 2023 - March 2024",
+    link: "https://techfest-website-24.vercel.app",
     role: "Head of Department Technicals",
     company: "NMTechfest'24",
     description: `Leading the Technicals Team that is responsible

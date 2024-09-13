@@ -1,12 +1,4 @@
 export const Projects = [
-  {
-    title: `Simon Game`,
-    image: "/projects/simon.png",
-    des: `The original Simon Game created in Next.js App`,
-    link: "https://simon-game-lilac-delta.vercel.app",
-    github: "https://github.com/Hmalhotra004/simon-game",
-    tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
-  },
   // {
   //   title: `Project Manager`,
   //   image: "/projects/simon.png",
@@ -16,6 +8,14 @@ export const Projects = [
   //   tech: ["Next.js", "Typescript", "TailwindCSS","Redux Toolkit", "Firebase", "Framer Motion"],
   // },
   {
+    title: `Simon Game`,
+    image: "/projects/simon.png",
+    des: `The original Simon Game created in Next.js App`,
+    link: "https://simon-game-lilac-delta.vercel.app",
+    github: "https://github.com/Hmalhotra004/simon-game",
+    tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
+  },
+  {
     title: `Quizzler`,
     image: "/projects/quiz.png",
     des: `A Quizz app about everything using an trivia api`,
@@ -23,14 +23,14 @@ export const Projects = [
     github: "https://github.com/Hmalhotra004/quizzler",
     tech: ["Next.js", "Typescript", "SCSS", "Axios"],
   },
-  {
-    title: `NMTechFest'24 Website`,
-    image: "/projects/tf.png",
-    des: `Official website of NMTechfest'24`,
-    link: "https://techfest-website-24.vercel.app",
-    github: "https://github.com/Hmalhotra004/techfest-website-24",
-    tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
-  },
+  // {
+  //   title: `NMTechFest'24 Website`,
+  //   image: "/projects/tf.png",
+  //   des: `Official website of NMTechfest'24`,
+  //   link: "https://techfest-website-24.vercel.app",
+  //   github: "https://github.com/Hmalhotra004/techfest-website-24",
+  //   tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
+  // },
   {
     title: `Tic-Tac-Toe`,
     image: "/projects/tic.png",

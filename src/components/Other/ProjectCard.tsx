@@ -14,7 +14,7 @@ type Props = {
 };
 
 const HoverBg = ({ project }: Props) => (
-  <div className="bg-neutral-950/75 z-50 w-full h-full flex justify-center items-center absolute top-0 left-0 rounded-xl">
+  <div className="bg-neutral-950/75 z-50 w-full h-full flex justify-center items-center absolute top-0 left-0 rounded-xl transition-colors">
     <a
       href={project.github}
       target="_blank"
