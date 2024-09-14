@@ -2,6 +2,18 @@
 import Reveal from "../Other/Reveal";
 
 const Contact = () => {
+  function handleEmail() {
+    const recipient = "hardikmalhotra150804@gmail.com"; // Replace with the recipient's email
+    const subject = ""; // Subject line
+    const body = ""; // Email body
+
+    // Construct the mailto URL
+    const mailtoUrl = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Open the mail client
+    window.location.href = mailtoUrl;
+  }
+
   return (
     <section
       className="border-b border-neutral-900 mb-4 pb-4 flex flex-col justify-center items-center gap-4"
@@ -37,15 +49,12 @@ const Contact = () => {
           y={-400}
           cn="flex mx-auto"
         >
-          <button className="text-purple-500  hover:text-neutral-900 bg-neutral-900  p-[0.65rem] rounded-lg hover:bg-purple-500 transition-colors duration-300">
+          <button
+            className="text-purple-500  hover:text-neutral-900 bg-neutral-900  p-[0.65rem] rounded-lg hover:bg-purple-500 transition-colors duration-300"
+            onClick={handleEmail}
+          >
             <Reveal y={100}>
-              <a
-                href="https:/mail.google.com/mail/?view=cm&fs=1&tf=1&to=hardikmalhotra150804@gmail.com"
-                target="_blank"
-                className="text-xl"
-              >
-                Email Me
-              </a>
+              <p className="text-xl">Email Me</p>
             </Reveal>
           </button>
         </Reveal>
