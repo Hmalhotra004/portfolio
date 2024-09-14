@@ -34,7 +34,7 @@ const HoverBg = ({ project }: Props) => (
 
 const ProjectCard = ({ project }: Props) => {
   const [isOn, setIsOn] = useState(false);
-  const FONTSIZE = `xxs:text-sm md:text-base xl:text-lg`;
+  const FONTSIZE = `xxs:text-base xl:text-lg`;
 
   function handleHover() {
     setIsOn(!isOn);

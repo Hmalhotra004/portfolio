@@ -44,7 +44,7 @@ const NavBar = () => {
 
   return (
     <>
-      <header className="flex items-center justify-end my-4 sticky top-0 overflow-hidden">
+      <header className="flex items-center justify-end my-4 sticky top-0 z-30">
         <div className="mr-auto z-20">
           <NavBarLogos />
         </div>
@@ -59,7 +59,7 @@ const NavBar = () => {
             </span>
           </button>
         </div>
-        <nav className="">
+        <nav>
           <ul className="xxs:hidden md:flex md:items-end md:justify-center text-lg ">{header.map((data, idx) => layHeader(data, idx))}</ul>
         </nav>
       </header>
