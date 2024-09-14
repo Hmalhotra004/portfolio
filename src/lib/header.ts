@@ -1,22 +1,22 @@
 export const header = [
   {
     name: "About",
-    to: "#hero",
+    to: "hero",
   },
   {
     name: "Skills",
-    to: "#skills",
+    to: "skills",
   },
   {
     name: "Experience",
-    to: "#Experience",
+    to: "Experience",
   },
   {
     name: "Projects",
-    to: "#Projects",
+    to: "Projects",
   },
   {
     name: "Contact",
-    to: "#Contact",
+    to: "Contact",
   },
 ];

@@ -2,7 +2,6 @@
 import { FadeIn } from "@/lib/animation";
 import { header } from "@/lib/header";
 import { AnimatePresence, motion } from "framer-motion";
-import Link from "next/link";
 import { useState } from "react";
 import MobileNav from "./MobileNav";
 import NavBarLogos from "./NavBarLogos";
@@ -17,7 +16,15 @@ const NavBar = () => {
         className="mx-2 text-sm xs:text-base md:text-xl lg:text-2xl xxs:text-xs hover:text-purple-500 transition-all ease-in-out"
         key={idx}
       >
-        <Link href={data.to}>{data.name}</Link>
+        <button
+          onClick={() =>
+            document.getElementById(data.to)?.scrollIntoView({
+              behavior: "smooth",
+            })
+          }
+        >
+          {data.name}
+        </button>
       </motion.li>
     );
   };
