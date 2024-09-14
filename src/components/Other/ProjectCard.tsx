@@ -77,7 +77,7 @@ const ProjectCard = ({ project }: Props) => {
                   x={-100}
                 >
                   <div className="flex flex-wrap w-fit">
-                    <span className="rounded bg-neutral-900 px-2 py-1 font-medium text-purple-500 m-1 xxs:text-sm md:text-base ">
+                    <span className="rounded bg-neutral-900 px-2 py-1 font-medium text-purple-500 m-1 xxs:text-sm xl:text-base">
                       <Reveal y={100}>
                         <p>{tech}</p>
                       </Reveal>

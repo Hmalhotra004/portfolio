@@ -3,7 +3,7 @@ import { EXPERIENCE } from "@/lib/experience";
 import Reveal from "../Other/Reveal";
 
 const Experience = () => {
-  const FONTSIZE = `xxs:text-sm md:text-base xl:text-lg`;
+  const FONTSIZE = `xxs:text-sm md:text-base `;
   return (
     <section
       className="border-b border-neutral-900 pb-4"
@@ -56,7 +56,7 @@ const Experience = () => {
                   x={-100}
                 >
                   <div className="flex flex-wrap w-fit">
-                    <span className="rounded bg-neutral-900 px-2 py-1 xxs:text-sm md:text-base font-medium text-purple-500 m-2 ml-0 ">
+                    <span className="rounded bg-neutral-900 px-2 py-1 xxs:text-sm xl:text-base font-medium text-purple-500 m-2 ml-0 ">
                       <Reveal
                         y={100}
                         de={0.2}
