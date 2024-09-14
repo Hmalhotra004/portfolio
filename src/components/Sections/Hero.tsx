@@ -10,7 +10,7 @@ const Hero = () => {
       className="mt-[4.5rem] border-b border-neutral-800 pb-24"
       id="hero"
     >
-      <div className="xxs:flex xxs:flex-col-reverse xxs:justify-center xxs:items-center md:justify-evenly md:gap-4 xl:gap-0 md:grid md:grid-cols-2">
+      <div className="xxs:flex xxs:flex-col-reverse xxs:justify-center xxs:items-center md:justify-center md:grid md:grid-cols-2">
         <div className="flex justify-center items-center">
           <Reveal
             x={-200}

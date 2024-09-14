@@ -1,6 +1,5 @@
 import { header } from "@/lib/header";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { useEffect } from "react";
 
 type Props = {
@@ -19,7 +18,15 @@ const MobileNav = ({ hide, onClick }: Props) => {
         onClick={onClick}
       >
         <li className="text-2xl">
-          <Link href={data.to}>{data.name}</Link>
+          <button
+            onClick={() =>
+              document.getElementById(data.to)?.scrollIntoView({
+                behavior: "smooth",
+              })
+            }
+          >
+            {data.name}
+          </button>
         </li>
       </button>
     );

@@ -44,7 +44,7 @@ const NavBar = () => {
 
   return (
     <>
-      <header className="flex items-center justify-end my-4 ">
+      <header className="flex items-center justify-end my-4 sticky top-0 overflow-hidden">
         <div className="mr-auto z-20">
           <NavBarLogos />
         </div>

@@ -34,6 +34,7 @@ const HoverBg = ({ project }: Props) => (
 
 const ProjectCard = ({ project }: Props) => {
   const [isOn, setIsOn] = useState(false);
+  const FONTSIZE = `xxs:text-sm md:text-base xl:text-lg`;
 
   function handleHover() {
     setIsOn(!isOn);
@@ -62,11 +63,11 @@ const ProjectCard = ({ project }: Props) => {
             </div>
 
             <Reveal x={-100}>
-              <h6 className="mb-2 font-semibold ml-2">{project.title}</h6>
+              <h6 className={`mb-2 font-semibold ml-2 ${FONTSIZE}`}>{project.title}</h6>
             </Reveal>
 
             <Reveal x={-100}>
-              <p className="mb-3 ml-2 text-neutral-400 text-ellipsis whitespace-wrap max-w-full line-clamp-2">{project.des}</p>
+              <p className={`mb-3 ml-2 text-neutral-400 text-ellipsis whitespace-wrap max-w-full line-clamp-2 ${FONTSIZE}`}>{project.des}</p>
             </Reveal>
 
             <div className="flex flex-wrap">
@@ -76,7 +77,7 @@ const ProjectCard = ({ project }: Props) => {
                   x={-100}
                 >
                   <div className="flex flex-wrap w-fit">
-                    <span className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 m-1 ">
+                    <span className="rounded bg-neutral-900 px-2 py-1 font-medium text-purple-500 m-1 xxs:text-sm md:text-base ">
                       <Reveal y={100}>
                         <p>{tech}</p>
                       </Reveal>
