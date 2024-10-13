@@ -1,16 +1,12 @@
 export const Projects = [
-  // {
-  //   title: `Project Manager`,
-  //   image: "/projects/simon.png",
-  // des: `The Full-Stack Project Manager application enables users to efficiently
-  //       manage their projects. Users can create new projects, mark them as completed,
-  //       delete existing projects, and add tasks to each project.
-  //       This intuitive interface streamlines project tracking and enhances
-  //       productivity, making it easier to organize and oversee ongoing work.`
-  //   link: "https://project-manager-omega-blue.vercel.app",
-  //   github: "https://github.com/Hmalhotra004/project-manager",
-  //   tech: ["Next.js", "Typescript", "TailwindCSS", "Redux Toolkit", "PostgreSQL", "Clerk", "Prisma"],
-  // },
+  {
+    title: `Project Manager`,
+    image: "/projects/project2.png",
+    des: `A Full-Stack Project Manager application.`,
+    link: "https://project-manager-alpha-seven.vercel.app",
+    github: "https://github.com/Hmalhotra004/project-manager",
+    tech: ["Next.js", "Typescript", "TailwindCSS", "Redux Toolkit", "PostgreSQL", "Clerk", "Prisma"],
+  },
 
   {
     title: `Simon Game`,
