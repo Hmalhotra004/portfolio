@@ -1,11 +1,19 @@
 export const Projects = [
   {
-    title: `Project Manager`,
+    title: `Projectly`,
     image: "/projects/project2.png",
     des: `A Full-Stack Project Manager application.`,
-    link: "https://project-manager-alpha-seven.vercel.app",
-    github: "https://github.com/Hmalhotra004/project-manager",
-    tech: ["Next.js", "Typescript", "TailwindCSS", "Redux Toolkit", "PostgreSQL", "Clerk", "Prisma"],
+    link: "https://projectly-five.vercel.app/",
+    github: "https://github.com/Hmalhotra004/projectly",
+    tech: [
+      "Next.js",
+      "Typescript",
+      "TailwindCSS",
+      "React Query",
+      "PostgreSQL",
+      "Next-Auth",
+      "Prisma",
+    ],
   },
 
   {
@@ -16,6 +24,7 @@ export const Projects = [
     github: "https://github.com/Hmalhotra004/simon-game",
     tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
   },
+
   {
     title: `Quizzler`,
     image: "/projects/quiz.png",
@@ -24,28 +33,4 @@ export const Projects = [
     github: "https://github.com/Hmalhotra004/quizzler",
     tech: ["Next.js", "Typescript", "SCSS", "Axios"],
   },
-  // {
-  //   title: `NMTechFest'24 Website`,
-  //   image: "/projects/tf.png",
-  //   des: `Official website of NMTechfest'24`,
-  //   link: "https://techfest-website-24.vercel.app",
-  //   github: "https://github.com/Hmalhotra004/techfest-website-24",
-  //   tech: ["Next.js", "Typescript", "SCSS", "Framer Motion"],
-  // },
-  {
-    title: `Tic-Tac-Toe`,
-    image: "/projects/tic.png",
-    des: `A Tic-Tac-Toe Game`,
-    link: "https://tic-tac-toe-three-peach.vercel.app",
-    github: "https://github.com/HardikMalhotra/Tic-Tac-Toe",
-    tech: ["HTML", "CSS", "Javascript"],
-  },
-  // {
-  //   title: `Mini-Projects`,
-  //   image: "/projects/mp.png",
-  //   des: `Various small projects build with vanilla javascript`,
-  //   link: "https://mini-projects-sigma.vercel.app/",
-  //   github: "https://github.com/Hmalhotra004/Mini-Projects",
-  //   tech: ["HTML", "CSS", "Javascript"],
-  // },
 ];
