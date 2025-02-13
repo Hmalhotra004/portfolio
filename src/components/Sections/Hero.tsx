@@ -16,7 +16,9 @@ const Hero = () => {
             x={-200}
             du={0.6}
           >
-            <motion.p className="xxs:mt-4 md:mt-0 xl:px-12 xs:text-justify md:text-base lg:text-lg xl:text-2xl xxs:text-center">{aboutMe}</motion.p>
+            <motion.p className="xxs:mt-4 md:mt-0 xl:px-12 xs:text-justify md:text-base lg:text-lg xl:text-xl xxs:text-center">
+              {aboutMe}
+            </motion.p>
           </Reveal>
         </div>
         <div className="md:flex md:items-center xxs:justify-center">

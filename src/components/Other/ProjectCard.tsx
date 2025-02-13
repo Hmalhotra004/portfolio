@@ -15,20 +15,24 @@ type Props = {
 
 const HoverBg = ({ project }: Props) => (
   <div className="bg-neutral-950/75 z-50 w-full h-full flex justify-center items-center absolute top-0 left-0 rounded-xl transition-colors">
-    <a
-      href={project.github}
-      target="_blank"
-      className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
-    >
-      GitHub
-    </a>
-    <a
-      href={project.link}
-      target="_blank"
-      className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
-    >
-      Live Project
-    </a>
+    {project.github && (
+      <a
+        href={project.github}
+        target="_blank"
+        className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
+      >
+        GitHub
+      </a>
+    )}
+    {project.link && (
+      <a
+        href={project.link}
+        target="_blank"
+        className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
+      >
+        Live Project
+      </a>
+    )}
   </div>
 );
 
@@ -46,10 +50,12 @@ const ProjectCard = ({ project }: Props) => {
         <div
           onMouseEnter={handleHover}
           onMouseLeave={handleHover}
-          className="rounded-2xl border-4 border-neutral-800 p-4 w-80 h-[400px] z-0 transition-all relative"
+          className="rounded-2xl border-4 border-neutral-800 p-4 w-80 min-h-[450px] z-0 transition-all relative"
         >
-          {isOn && <HoverBg project={project} />}
-          <div className="flex flex-col justify-center items-start">
+          {isOn && (project.github || project.link) && (
+            <HoverBg project={project} />
+          )}
+          <div className="flex flex-col h-full">
             <div className="w-full flex justify-center h-full object-contain mb-2">
               <Reveal y={10}>
                 <Image
@@ -63,21 +69,27 @@ const ProjectCard = ({ project }: Props) => {
             </div>
 
             <Reveal x={-100}>
-              <h6 className={`mb-2 font-semibold ml-2 ${FONTSIZE}`}>{project.title}</h6>
+              <h6 className={`mb-2 font-semibold ml-2 ${FONTSIZE}`}>
+                {project.title}
+              </h6>
             </Reveal>
 
             <Reveal x={-100}>
-              <p className={`mb-3 ml-2 text-neutral-400 text-ellipsis whitespace-wrap max-w-full line-clamp-2 ${FONTSIZE}`}>{project.des}</p>
+              <p
+                className={`mb-2 ml-2 text-neutral-400 text-ellipsis whitespace-wrap max-w-full xxs:text-base flex-grow`}
+              >
+                {project.des}
+              </p>
             </Reveal>
 
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap mt-auto">
               {project.tech.map((tech: any, idx: number) => (
                 <Reveal
                   key={idx}
                   x={-100}
                 >
                   <div className="flex flex-wrap w-fit">
-                    <span className="rounded bg-neutral-900 px-2 py-1 font-medium text-purple-500 m-1 xxs:text-sm xl:text-base">
+                    <span className="rounded bg-neutral-900 px-2 py-1 font-medium text-purple-500 m-1 xxs:text-xs lg:text-sm">
                       <Reveal y={100}>
                         <p>{tech}</p>
                       </Reveal>
