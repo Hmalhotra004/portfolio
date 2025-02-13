@@ -1,4 +1,3 @@
-// import Footer from "@/components/Footer";
 import NavBar from "@/components/Other/NavBar";
 import Contact from "@/components/Sections/Contact";
 import Experience from "@/components/Sections/Experience";

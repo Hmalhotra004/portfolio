@@ -30,7 +30,7 @@ const Experience = () => {
                 <a
                   href={exp.link}
                   target="_blank"
-                  className={`mb-2 text-neutral-400 hover:text-neutral-300 transition-all ${FONTSIZE}`}
+                  className={`mb-2 text-neutral-400 hover:text-neutral-300 transition-all underline ${FONTSIZE}`}
                 >
                   Website Link
                 </a>
