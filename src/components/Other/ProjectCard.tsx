@@ -15,20 +15,24 @@ type Props = {
 
 const HoverBg = ({ project }: Props) => (
   <div className="bg-neutral-950/75 z-50 w-full h-full flex justify-center items-center absolute top-0 left-0 rounded-xl transition-colors">
-    <a
-      href={project.github}
-      target="_blank"
-      className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
-    >
-      GitHub
-    </a>
-    <a
-      href={project.link}
-      target="_blank"
-      className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
-    >
-      Live Project
-    </a>
+    {project.github && (
+      <a
+        href={project.github}
+        target="_blank"
+        className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
+      >
+        GitHub
+      </a>
+    )}
+    {project.link && (
+      <a
+        href={project.link}
+        target="_blank"
+        className="p-2 rounded-lg mx-2 text-lg bg-black text-purple-500 hover:text-black hover:bg-purple-500 transition-colors"
+      >
+        Live Project
+      </a>
+    )}
   </div>
 );
 
@@ -48,7 +52,9 @@ const ProjectCard = ({ project }: Props) => {
           onMouseLeave={handleHover}
           className="rounded-2xl border-4 border-neutral-800 p-4 w-80 min-h-[450px] z-0 transition-all relative"
         >
-          {isOn && <HoverBg project={project} />}
+          {isOn && (project.github || project.link) && (
+            <HoverBg project={project} />
+          )}
           <div className="flex flex-col h-full">
             <div className="w-full flex justify-center h-full object-contain mb-2">
               <Reveal y={10}>
