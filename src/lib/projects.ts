@@ -4,7 +4,8 @@ export const Projects = [
     image: "/projects/homi.png",
     des: `AI Chatbot with attendance and assignment tracking and customized tests based on user chats`,
     link: "https://homi-bot.vercel.app/",
-    github: "https://github.com/Hmalhotra004/AIML-Chatbot",
+    github: "",
+    // github: "https://github.com/Hmalhotra004/AIML-Chatbot",
     tech: [
       "Next.js",
       "Typescript",
